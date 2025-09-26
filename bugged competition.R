@@ -30,7 +30,7 @@ contest <- function(R,K,N0,t){
         (N0*(R-1) + K)
     )
     N[i] <- N0
-  #}
+ }
   
   plot(N, xlab = "Time steps", ylab = "N")
   lines(N)
@@ -41,7 +41,7 @@ contest <- function(R,K,N0,t){
 
 ###A few examples of scramble competition
 
-scrumble(R = 1.1, K = 100, N0 = 10, t = 100)
+scramble(R = 1.1, K = 100, N0 = 10, t = 100)
 
 scramble(R = 5, K = 100, N0 = 10, t = 100)
 
@@ -50,4 +50,5 @@ scramble(R = 10, K = 100, N0 = 10, t = 100) #try altering the parameter values!
 ###A few examples of scramble competition
 
 contest(R = 5, K = 100, N0 = 1, t = 10)
+
 
